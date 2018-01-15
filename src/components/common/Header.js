@@ -22,8 +22,6 @@ const Header = ({loading}) => {
       {" | "}
       <Link to="/assets" activeClassName="active">Assets</Link>
       {" ||| "}
-      <Link to="/about" activeClassName="active">Help</Link>
-      {" | "}
       <Link to="/about" activeClassName="active">About</Link>
       {loading && <LoadingDots interval={100} dots={20}/>}
     </nav>
