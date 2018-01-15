@@ -1,6 +1,6 @@
 {
   "name": "cecl-simulator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CECL Web Simulator -- leverages knowledge from PluralSight Course by Cory House",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
